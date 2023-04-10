@@ -1,38 +1,25 @@
-# create-svelte
+# SeoExplorer
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A WIP File Explorer written in Tauri. 
 
-## Creating a project
+## TODOs
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [ ] Single click to select + selected status bar
+- [ ] Details Pane
+- [ ] URL Bar
+- [ ] File Search
+- [ ] List/Thumbnail View Toggle
+- [ ] Tabs
+- [ ] Context Menu
+  - [ ] Create New File/Folder
+  - [ ] Create from Template
+- [ ] Back/Forward buttons (Blame Tauri)
+- [ ] Drag folder/files
+- [ ] Multi select
+- [ ] Group-by / Sort-by (probably should use TanStack Table)
+- [ ] Proper thumbnails
+- [ ] User Preferences
+  - [ ] Bookmarks
+  - [ ] Preferences
+  - [ ] Color Scheme
+- [ ] Literally become a Thunar / Windows Explorer clone

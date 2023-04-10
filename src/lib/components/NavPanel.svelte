@@ -66,9 +66,6 @@
 </script>
 
 <ul class="menu bg-base-100 w-full">
-	<li class="menu-title">
-		<span>Root</span>
-	</li>
 	{#await entries}
 		<li>
 			<div class="loading loading-lg" />
