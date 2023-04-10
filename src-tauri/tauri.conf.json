@@ -2,9 +2,8 @@
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
     "beforeBuildCommand": "pnpm run build",
-    "beforeDevCommand": "pnpm run dev",
-    "devPath": "localhost:5173",
-    "distDir": "../../public"
+    "beforeDevCommand": "pnpm dev",
+    "devPath": "http://localhost:1420"
   },
   "package": {
     "productName": "seo-explorer",
@@ -12,7 +11,7 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": true
     },
     "bundle": {
       "active": true,
