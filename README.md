@@ -2,6 +2,13 @@
 
 A WIP File Explorer written in Tauri. 
 
+## Features
+
+- [x] Simple navigation
+- [x] Open files
+- [x] Side tree view
+- [x] Basic Icons
+
 ## TODOs
 
 - [ ] Single click to select + selected status bar
@@ -10,6 +17,7 @@ A WIP File Explorer written in Tauri.
 - [ ] File Search
 - [ ] List/Thumbnail View Toggle
 - [ ] Tabs
+- [ ] Faster Loading for large folders
 - [ ] Context Menu
   - [ ] Create New File/Folder
   - [ ] Create from Template
