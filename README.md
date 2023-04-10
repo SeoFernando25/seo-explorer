@@ -23,3 +23,7 @@ A WIP File Explorer written in Tauri.
   - [ ] Preferences
   - [ ] Color Scheme
 - [ ] Literally become a Thunar / Windows Explorer clone
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/26195439/230876056-d5f95cd8-a0d3-4835-8150-842a168cb3a5.png)
